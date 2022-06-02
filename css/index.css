@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+body {
+	margin: 0;
+}
+
+.mega-container {
+	display: flex;
+	flex-direction: column;
+}
+.container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px;
+	padding-top: 40px;
+}
+.container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px;
+}
+.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px;
+}
+.container4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px;
+}
+
+#card1 {
+	position: relative;
+	right: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card1p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card2 {
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card2p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card3 {
+	position: relative;
+	left: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card3p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card4 {
+	position: relative;
+	right: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card4p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card5 {
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card5p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card6 {
+	position: relative;
+	left: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card6p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card7 {
+	position: relative;
+	right: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card7p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}
+#card8 {
+	position: relative;
+	left: 30px;
+	background-color: #063564d5;
+	border: 8px solid black;
+	width: 150px;
+	height: 150px;
+}
+#card8p {
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+	text-align: center;
+}

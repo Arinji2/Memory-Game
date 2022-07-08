@@ -6,20 +6,89 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
 	<body>
-		<div class="mega-container">
-			<div class="container1">
-				<div id="card1"><p id="card1p">1</p></div>
-				<div id="card2"><p id="card2p">2</p></div>
-				<div id="card3"><p id="card3p">3</p></div>
+
+			<div class="mega-container">
+				<div class="container1">
+					<div id="card1">
+						<p id="card1p">1</p>
+						<input
+							id="selectButton"
+							type="button"
+							onclick="selection(card1)"
+							value="Select"
+						/>
+					</div>
+					<div id="card2">
+						<p id="card2p">2</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card2)"
+						value="Select"
+					/>
+				</div>
+				<div id="card3">
+					<p id="card3p">3</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card3)"
+						value="Select"
+					/>
+				</div>
 			</div>
+					<div class="scoreboard">
+			<div id="turn">Now Playing: P1</div>
 			<div class="container2">
-				<div id="card4"><p id="card4p"></p></div>
-				<div id="card5"><p id="card5p">5</p></div>
-				<div id="card6"><p id="card6p"></p></div>
+				<div id="card4">
+					<p id="card4p">4</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card4)"
+						value="Select"
+					/>
+				</div>
+				<div id="card5">
+					<p id="card5p">5</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card5)"
+						value="Select"
+					/>
+				</div>
+				<div id="card6">
+					<p id="card6p">6</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card6)"
+						value="Select"
+					/>
+				</div>
 			</div>
+								<div class="scoreboard">
+			<div id="score">ScoreBoard: P1: | P2: </div>
 			<div class="container3">
-				<div id="card7"><p id="card7p"></p></div>
-				<div id="card8"><p id="card8p"></p></div>
+				<div id="card7">
+					<p id="card7p">7</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card7)"
+						value="Select"
+					/>
+				</div>
+				<div id="card8">
+					<p id="card8p">8</p>
+					<input
+						id="selectButton"
+						type="button"
+						onclick="selection(card8)"
+						value="Select"
+					/>
+				</div>
 			</div>
 		</div>
 		<script src="script.js"></script>

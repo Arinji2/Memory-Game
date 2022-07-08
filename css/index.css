@@ -1,7 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 body {
 	margin: 0;
+	background-image: linear-gradient(
+		45deg,
+		hsl(302deg 100% 75%) 0%,
+		hsl(311deg 100% 75%) 4%,
+		hsl(319deg 100% 77%) 9%,
+		hsl(327deg 100% 78%) 13%,
+		hsl(335deg 100% 79%) 17%,
+		hsl(343deg 100% 81%) 22%,
+		hsl(350deg 91% 82%) 26%,
+		hsl(356deg 72% 82%) 30%,
+		hsl(358deg 61% 82%) 35%,
+		hsl(353deg 71% 82%) 39%,
+		hsl(348deg 81% 83%) 43%,
+		hsl(343deg 89% 84%) 48%,
+		hsl(337deg 96% 84%) 52%,
+		hsl(331deg 100% 85%) 56%,
+		hsl(324deg 100% 85%) 61%,
+		hsl(315deg 97% 85%) 65%,
+		hsl(312deg 96% 86%) 69%,
+		hsl(313deg 98% 88%) 74%,
+		hsl(313deg 100% 90%) 78%,
+		hsl(313deg 100% 92%) 83%,
+		hsl(313deg 100% 94%) 87%,
+		hsl(313deg 100% 96%) 91%,
+		hsl(313deg 100% 98%) 96%,
+		hsl(0deg 0% 100%) 100%
+	);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .mega-container {
@@ -14,6 +45,7 @@ body {
 	justify-content: center;
 	margin: 20px;
 	padding-top: 40px;
+	align-items: center;
 }
 .container2 {
 	display: flex;
@@ -55,6 +87,7 @@ body {
 	border: 8px solid black;
 	width: 150px;
 	height: 150px;
+	align-self: center;
 }
 #card2p {
 	position: relative;
@@ -71,6 +104,7 @@ body {
 	border: 8px solid black;
 	width: 150px;
 	height: 150px;
+	align-self: center;
 }
 #card3p {
 	position: relative;
@@ -157,4 +191,34 @@ body {
 	font-size: 30px;
 	font-family: "Kdam Thmor Pro", sans-serif;
 	text-align: center;
+}
+#selectButton {
+	position: relative;
+	top: 15px;
+	left: 50px;
+	background-color: transparent;
+	color: white;
+	font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+#turn {
+	font-family: "Arvo", serif;
+	position: relative;
+	font-size: 30px;
+	left: 20px;
+}
+#score {
+	font-family: "Arvo", serif;
+	position: relative;
+	font-size: 30px;
+	left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	#selectButton {
+		left: 20px;
+	}
+	#turn {
+		left: 60px;
+	}
 }
